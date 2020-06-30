@@ -37,3 +37,13 @@ Go To Radion Buttons
 
     ClickText                       BOTÕES DE RADIO
     Wait Until Page Contains        Escolha sua linguagem preferida
+
+Go To CheckBox
+
+    Open Nav
+
+    ClickText                       INPUTS
+    Wait Until Page Contains        INPUTS
+
+    ClickText                       CHECKBOX
+    Wait Until Page Contains        Marque as techs que usam Appium
