@@ -17,3 +17,23 @@ Open Nav
     
     Click Element                       ${HAMBURGUER}
     Wait Until Element Is Visible       ${NAVVIEW} 
+
+Go To Login Form
+
+    Open Nav
+
+    ClickText                       FORMS
+    Wait Until Page Contains        FORMS
+
+    ClickText                       LOGIN
+    Wait Until Page Contains        Fala QA, vamos testar o login?
+
+Go To Radion Buttons
+
+    Open Nav
+
+    ClickText                       INPUTS
+    Wait Until Page Contains        INPUTS
+
+    ClickText                       BOTÕES DE RADIO
+    Wait Until Page Contains        Escolha sua linguagem preferida
